@@ -132,7 +132,7 @@ old_postuninstall_cmds=""
 LTCC="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang"
 
 # LTCC compiler flags.
-LTCFLAGS="-arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk -miphoneos-version-min=9.0 -I/Users/ataibarkai/Dropbox/Other/Software-Development/Learning/CppCrossPlatform/libtiff-ios-master/dependencies/include"
+LTCFLAGS="-arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk -miphoneos-version-min=9.2 -I/Users/ataibarkai/Dropbox/Software-Development/iPhone-Dev/Pixie-iOS/Pixie/../libtiff-ios/dependencies/include"
 
 # Take the output of nm and produce a listing of raw symbols and C names.
 global_symbol_pipe=""
@@ -234,7 +234,7 @@ finish_eval=""
 hardcode_into_libs=no
 
 # Compile-time system search path for libraries.
-sys_lib_search_path_spec="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0 /usr/local/lib"
+sys_lib_search_path_spec="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.2 /usr/local/lib"
 
 # Run-time system search path for libraries.
 sys_lib_dlsearch_path_spec="/usr/local/lib /lib /usr/lib"

@@ -192,25 +192,25 @@
 #define PACKAGE_VERSION ""
 
 /* Directory where we store displays */
-#define PIXIE_DISPLAYS "/Users/ataibarkai/Dropbox/Other/Software-Development/Learning/CppCrossPlatform/Pixie-changed-copy/output/x86_64/displays"
+#define PIXIE_DISPLAYS "/Users/ataibarkai/Dropbox/Software-Development/iPhone-Dev/Pixie-iOS/Pixie/output/x86_64/displays"
 
 /* Directory where we store documentation */
-#define PIXIE_DOCS "/Users/ataibarkai/Dropbox/Other/Software-Development/Learning/CppCrossPlatform/Pixie-changed-copy/output/x86_64/doc"
+#define PIXIE_DOCS "/Users/ataibarkai/Dropbox/Software-Development/iPhone-Dev/Pixie-iOS/Pixie/output/x86_64/doc"
 
 /* Directory where we store modules */
-#define PIXIE_MODULES "/Users/ataibarkai/Dropbox/Other/Software-Development/Learning/CppCrossPlatform/Pixie-changed-copy/output/x86_64/modules"
+#define PIXIE_MODULES "/Users/ataibarkai/Dropbox/Software-Development/iPhone-Dev/Pixie-iOS/Pixie/output/x86_64/modules"
 
 /* Directory where we store procedurals */
-#define PIXIE_PROCEDURALS "/Users/ataibarkai/Dropbox/Other/Software-Development/Learning/CppCrossPlatform/Pixie-changed-copy/output/x86_64/procedurals"
+#define PIXIE_PROCEDURALS "/Users/ataibarkai/Dropbox/Software-Development/iPhone-Dev/Pixie-iOS/Pixie/output/x86_64/procedurals"
 
 /* Directory where we store ribs */
-#define PIXIE_RIBS "/Users/ataibarkai/Dropbox/Other/Software-Development/Learning/CppCrossPlatform/Pixie-changed-copy/output/x86_64/ribs"
+#define PIXIE_RIBS "/Users/ataibarkai/Dropbox/Software-Development/iPhone-Dev/Pixie-iOS/Pixie/output/x86_64/ribs"
 
 /* Directory where we store shaders */
-#define PIXIE_SHADERS "/Users/ataibarkai/Dropbox/Other/Software-Development/Learning/CppCrossPlatform/Pixie-changed-copy/output/x86_64/shaders"
+#define PIXIE_SHADERS "/Users/ataibarkai/Dropbox/Software-Development/iPhone-Dev/Pixie-iOS/Pixie/output/x86_64/shaders"
 
 /* Directory where we store textures */
-#define PIXIE_TEXTURES "/Users/ataibarkai/Dropbox/Other/Software-Development/Learning/CppCrossPlatform/Pixie-changed-copy/output/x86_64/textures"
+#define PIXIE_TEXTURES "/Users/ataibarkai/Dropbox/Software-Development/iPhone-Dev/Pixie-iOS/Pixie/output/x86_64/textures"
 
 /* If using the C implementation of alloca, define if you know the
    direction of stack growth for your system; otherwise it will be
@@ -230,7 +230,7 @@
 #define VERSION "2.2.6"
 
 /* Define to 1 if the X Window System is missing or not being used. */
-#define X_DISPLAY_MISSING 1
+/* #undef X_DISPLAY_MISSING */
 
 /* Define to empty if `const' does not conform to ANSI C. */
 /* #undef const */

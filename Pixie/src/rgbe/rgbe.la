@@ -17,7 +17,7 @@ old_library='rgbe.a'
 inherited_linker_flags=' '
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/Users/ataibarkai/Dropbox/Other/Software-Development/Learning/CppCrossPlatform/libtiff-ios-master/dependencies/lib /Users/ataibarkai/Dropbox/Other/Software-Development/Learning/CppCrossPlatform/Pixie-changed-copy/src/common/libpixiecommon.la -lpthread -lm -ldl -ltiff -ltiffxx -ljpeg -lpng'
+dependency_libs=' -L/Users/ataibarkai/Dropbox/Software-Development/iPhone-Dev/Pixie-iOS/Pixie/../libtiff-ios/dependencies/lib /Users/ataibarkai/Dropbox/Software-Development/iPhone-Dev/Pixie-iOS/Pixie/src/common/libpixiecommon.la -lpthread -lm -ldl -ltiff -ltiffxx -ljpeg -lpng'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/Users/ataibarkai/Dropbox/Other/Software-Development/Learning/CppCrossPlatform/Pixie-changed-copy/output/x86_64/displays'
+libdir='/Users/ataibarkai/Dropbox/Software-Development/iPhone-Dev/Pixie-iOS/Pixie/output/x86_64/displays'

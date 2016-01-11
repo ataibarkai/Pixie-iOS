@@ -39,11 +39,11 @@ buildit()
 
     export CC="$(xcrun -sdk iphoneos -find clang)"
     export CPP="$CC -E"
-    export CFLAGS="-arch ${target} -isysroot $PLATFORMPATH/$platform.platform/Developer/SDKs/$platform$SDKVERSION.sdk -miphoneos-version-min=$SDKVERSION -I/Users/ataibarkai/Dropbox/Other/Software-Development/Learning/CppCrossPlatform/libtiff-ios-master/dependencies/include"
+    export CFLAGS="-arch ${target} -isysroot $PLATFORMPATH/$platform.platform/Developer/SDKs/$platform$SDKVERSION.sdk -miphoneos-version-min=$SDKVERSION -I${PWD}/../libtiff-ios/dependencies/include"
     export AR=$(xcrun -sdk iphoneos -find ar)
     export RANLIB=$(xcrun -sdk iphoneos -find ranlib)
-    export CPPFLAGS="-arch ${target}  -isysroot $PLATFORMPATH/$platform.platform/Developer/SDKs/$platform$SDKVERSION.sdk -miphoneos-version-min=$SDKVERSION -I/Users/ataibarkai/Dropbox/Other/Software-Development/Learning/CppCrossPlatform/libtiff-ios-master/dependencies/include"
-    export LDFLAGS="-arch ${target} -isysroot $PLATFORMPATH/$platform.platform/Developer/SDKs/$platform$SDKVERSION.sdk -L/Users/ataibarkai/Dropbox/Other/Software-Development/Learning/CppCrossPlatform/libtiff-ios-master/dependencies/lib"
+    export CPPFLAGS="-arch ${target}  -isysroot $PLATFORMPATH/$platform.platform/Developer/SDKs/$platform$SDKVERSION.sdk -miphoneos-version-min=$SDKVERSION -I${PWD}/../libtiff-ios/dependencies/include"
+    export LDFLAGS="-arch ${target} -isysroot $PLATFORMPATH/$platform.platform/Developer/SDKs/$platform$SDKVERSION.sdk -L${PWD}/../libtiff-ios/dependencies/lib"
 	export LIBS="-ltiff -ltiffxx -ljpeg -lpng"
 
     mkdir -p $pwd/output/$target
